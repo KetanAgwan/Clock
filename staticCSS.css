@@ -1,0 +1,18 @@
+   #theme-btn{
+   	    display: inline;
+   	    width: 70px;
+		height: 60px;
+		margin: 4px;
+		/*background:rgba(255,255,255,0.8);*/
+		border-radius: 12px;
+		/*backdrop-filter: blur(30px);*/
+		border:2px #00FF80;
+		background-clip: padding-box;
+		/*box-shadow: 2px 2px 2px rgba(255,255,255,0.5);*/
+		line-height: 1.5;
+   }
+
+   #theme-btn:hover{
+   	background:#00FF80;
+   	box-shadow: 2px 2px 4px #00FF80;
+   }

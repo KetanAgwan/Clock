@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="thememodal.css">
+	<link rel="stylesheet" type="text/css" href="staticCSS.css">
+	<title>clock 1</title>
+</head>
+
+<body>
+	<div class="container" id="container">
+		<button id="theme-btn" class="theme-btn">Themes</button>
+		<div class="Date">
+			<div class="Date-container"></div>
+		</div>
+		<div class="two-container">
+			<div class="time-containers" id="hours"></div>
+			<div class="dots">:</div>
+			<div class="time-containers" id="minutes"></div>
+			<div class="dots">:</div>
+			<div class="time-containers" id="seconds"></div>
+		</div>
+		<div class="AMPM">
+			<div class="AMPM-container"></div>
+		</div>
+	</div>
+	<!-- this html is for modal ------------------------------------------------------------------------------------->
+	<div class="mymodal" id="mymodal">
+		<div class="box1" id="box1">
+			<div class="title">
+				<div class="close-div">
+					<h3>Themes</h3>
+					<button type="close" class="close" id="close1">&times;</button>
+				</div>
+			</div>
+			<div class="themes-container">
+				<button class="btn" id="theme1">
+					<img src="bg7.jpg" width="140" height="75">
+				</button><label>City Lights</label><br>
+				<button class="btn" id="theme2">
+					<img src="bg2.jpg" width="140" height="75">
+				</button><label>Cargo</label><br>
+				<button class="btn" id="theme3">
+					<img src="bg3.jpg" width="140" height="75">
+				</button><label>Hacker mode</label><br>
+				<button class="btn" id="theme4">
+					<img src="bg4.jpg" width="140" height="75">
+				</button><label>Nature</label>
+			</div>
+		</div>
+	</div>
+	<!--------------------------------------------------------------------------------------------------------------->
+</body>
+<script src="pageJS.js"></script>
+
+</html>

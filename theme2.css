@@ -1,0 +1,123 @@
+@font-face{
+	font-family: 'Elianto-Regular';
+	src:url(Elianto-Regular.ttf);
+}
+
+*{
+		margin: 0px;
+		padding: 0px;
+}
+body{
+	background-image: url("bg2.jpg");
+		background-size: cover;
+	object-fit: cover;
+}
+
+	.container{
+		/*display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;*/
+		height: auto;
+		width: 100vw;
+	}
+
+		.dots{
+			display: none;
+	}
+
+	.two-container{
+		width: 100vw;
+		height: auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.time-containers{
+		width: 300px;
+		height: 300px;
+		margin: 4px;
+		/*background:rgba(255,255,255,0.1);*/
+		border-radius: 12px;
+		/*backdrop-filter: blur(30px);*/
+		border:2px solid transparent;
+		background-clip: padding-box;
+		box-shadow: 10px 10px 10px rgba(27,28,28,0.5);
+		line-height: 1.5;
+	}
+
+	.time-containers{
+		 font: 200px Elianto-Regular;
+		 /*text-align: center;*/
+		 display: flex;
+		 align-items: center;
+		 justify-content: center;
+		 padding: 10px;
+		 color:#FFF;
+		 text-shadow: 3px 3px 6px #00A7B0;
+	}
+
+	.Date{
+		width: 15vw;
+		height: 20vh;
+	}
+
+	.Date-container{
+		display: inline-block;
+		width: 300px;
+		height: 100px;
+		margin-left:200px; 
+		/*background:rgba(255,255,255,0.1);*/
+		border-radius: 12px;
+		/*backdrop-filter: blur(30px);*/
+		border:2px solid transparent;
+		background-clip: padding-box;
+		box-shadow: 10px 10px 10px rgba(27,28,28,0.5);
+		line-height: 1.5;
+	}
+
+	.Date-container{
+		 font: 40px Elianto-Regular;
+		 /*text-align: center;*/
+		 display: flex;
+		 align-items: center;
+		 justify-content: center;
+		 padding: 10px;
+		 color:#FFF;
+		 text-shadow: 3px 3px 3px #00A7B0;
+	}
+
+	.AMPM{
+		width: 100vw;
+		height: 30vh;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+
+	}
+
+	.AMPM-container{
+		width: 300px;
+		height: 100px;
+		margin: 4px;
+		margin-right:200px;
+		/*background:rgba(255,255,255,0.1);*/
+		border-radius: 12px;
+		/*backdrop-filter: blur(30px);*/
+		border:2px solid transparent;
+		background-clip: padding-box;
+		box-shadow: 10px 10px 10px rgba(27,28,28,0.5);
+		line-height: 1.5;
+	}
+
+	.AMPM-container{
+		 font: 50px Elianto-Regular;
+		 /*text-align: center;*/
+		 display: flex;
+		 align-items: center;
+		 justify-content: center;
+		 padding: 10px;
+		 color:#FFF;
+		 text-shadow: 3px 3px 3px #00A7B0;
+	}
